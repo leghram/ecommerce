@@ -1,0 +1,41 @@
+:root {
+  --var-blue: #052051;
+  --var-celeste: #2a7ae4;
+  --var-celeste-claro: #eaf2fd;
+  --var-gray: #f5f5f5;
+  --var-blue-back: #e9ecf8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  outline: none;
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+}

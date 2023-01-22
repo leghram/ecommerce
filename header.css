@@ -1,0 +1,57 @@
+header {
+  background-color: white;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 3rem;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.header-search div {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-search input {
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: var(--var-gray);
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.header-search input:hover {
+  border: solid 2px var(--var-blue);
+}
+
+.header-search p {
+  color: var(--var-celeste);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#btn-login {
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  border: var(--var-celeste) solid 2px;
+  background-color: white;
+  color: var(--var-celeste);
+  border-radius: 1rem;
+}

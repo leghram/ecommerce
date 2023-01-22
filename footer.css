@@ -1,0 +1,81 @@
+#footer-id {
+  background-color: var(--var-celeste-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info {
+  display: flex;
+  width: 80%;
+  margin: 3rem 0;
+}
+.footer-mitad {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-first-child-mitad {
+  display: flex;
+  align-items: center;
+}
+.footer-first-child-mitad p {
+  color: var(--var-blue);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-link-pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.footer-link-pages p {
+  margin-bottom: 1rem;
+  font: "Raleway";
+}
+
+.footer-mitad form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-mitad form input {
+  width: 80%;
+  font-size: 1rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  padding: 1rem 0;
+}
+.footer-mitad form textarea {
+  width: 80%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.footer-mitad form button {
+  width: 15rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--var-celeste);
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.under-footer {
+  text-align: center;
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
