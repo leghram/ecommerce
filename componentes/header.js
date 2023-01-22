@@ -5,7 +5,7 @@ const HEADER = `
           <p>ShopStore</p>
         </div>
         <input id="search-input" type="text" placeholder="Que desea buscar?" />
-        <button id="btn-login">Login</button>
+        <button onclick="location.href='login/index.html'" id="btn-login">Login</button>
       </div>
 `;
 export default HEADER;

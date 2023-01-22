@@ -18,5 +18,6 @@ btnLoguear.addEventListener("click", (e) => {
   e.preventDefault();
   if (inputmail.value == "admin" && inputpass.value == "admin") {
     console.log("loguead");
+    window.location.assign("../productos/index.html");
   }
 });
