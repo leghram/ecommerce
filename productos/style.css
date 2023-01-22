@@ -25,7 +25,10 @@ main {
 
 #lista-todos-productos {
   width: 100%;
-  border: 2px red solid;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
 #btn-login {
@@ -33,9 +36,10 @@ main {
 }
 
 .box {
-  margin: 2rem 0;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 11rem;
   box-shadow: 0px 0px 5px 2px var(--var-blue);
 }
