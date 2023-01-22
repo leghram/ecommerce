@@ -7,11 +7,28 @@
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./header.css" />
     <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>ShopStore</title>
   </head>
   <body>
     <header id="header-id"></header>
-    <h1>Shop</h1>
+    <div class="portada"></div>
+    <main>
+      <div class="categoria-container">
+        <h2>Categoria 1</h2>
+        <div class="categoria-space" id="categoria1">
+          <div class="box">
+            <img
+              src="https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Santorini-Greece.jpg"
+            />
+            <p>Nombre</p>
+            <p>$ 60.00</p>
+            <button>Ver producto</button>
+          </div>
+        </div>
+        <button class="btn-ver-todo">Ver todo &#9655;</button>
+      </div>
+    </main>
     <div id="space-footer"></div>
   </body>
   <script src="./index.js" type="module"></script>
